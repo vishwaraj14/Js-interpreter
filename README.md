@@ -105,6 +105,6 @@ This project is distributed under the MIT License. See [LICENSE.md](LICENSE.md) 
 
 ## Author & Contributions
 
-Author: @Kennny7 | Khushal Pareta
+Author: Vishwaraj
 
 Contributions are welcome.
