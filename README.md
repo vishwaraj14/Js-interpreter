@@ -39,15 +39,16 @@ flowchart TD
     G --> I
     H --> I
 
-    style A fill:#f8f9fa,stroke:#6c757d,stroke-width:1px
-    style B fill:#f8f9fa,stroke:#6c757d,stroke-width:1px
-    style C fill:#f8f9fa,stroke:#6c757d,stroke-width:1px
-    style D fill:#f8f9fa,stroke:#6c757d,stroke-width:1px
-    style E fill:#f8f9fa,stroke:#6c757d,stroke-width:1px
-    style F fill:#fff3cd,stroke:#856404,stroke-width:1px
-    style G fill:#fff3cd,stroke:#856404,stroke-width:1px
-    style H fill:#fff3cd,stroke:#856404,stroke-width:1px
-    style I fill:#f8d7da,stroke:#721c24,stroke-width:1px
+    style A fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style B fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style C fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style D fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style E fill:#1e293b,stroke:#475569,stroke-width:1px,color:#f8fafc
+    style F fill:#453006,stroke:#b45309,stroke-width:1px,color:#fde68a
+    style G fill:#453006,stroke:#b45309,stroke-width:1px,color:#fde68a
+    style H fill:#453006,stroke:#b45309,stroke-width:1px,color:#fde68a
+    style I fill:#4c1d1d,stroke:#b91c1c,stroke-width:1px,color:#fecaca
+
 ```
 
 ---
