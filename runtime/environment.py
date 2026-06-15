@@ -14,7 +14,12 @@ class ReturnValue(Exception):
         self.value = value
         super().__init__(f"Return: {value}")
 
-
+class ThrowValue(Exception):
+    """Exception raised when a ``throw`` statement is executed."""
+    def __init__(self, value: Any) -> None:
+        self.value = value
+        super().__init__(f"Throw: {value}")
+        
 class Environment:
     """Represents a variable scope with optional enclosing environment.
 
@@ -118,3 +123,12 @@ class Environment:
         if self.enclosing is not None:
             return self.enclosing._find_environment(name)
         return None
+
+    def depth(self):
+        """Return the nesting depth (0 = global)."""
+        d = 0
+        env = self
+        while env.enclosing is not None:
+            d += 1
+            env = env.enclosing
+        return d
