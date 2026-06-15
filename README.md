@@ -60,12 +60,19 @@ flowchart TD
 
 ```bash
 python main.py sample.js
+
+# For example (windows cmd):
+python main.py tests\sample_one.js
 ```
 
 ### From stdin
 
 ```bash
-echo "let x = 5; console.log(x * 2);" | python main.py
+echo let x = 5; console.log(x * 2); | python main.py
+# Output: 10.0
+
+echo try { throw 42; } catch(e) { console.log(e); } | python main.py
+# Output: 42.0
 ```
 
 Direct inline argument support is not shown here because the current CLI is documented around file and pipe input modes.
