@@ -51,9 +51,6 @@ def _console_log(*args: Any) -> None:
     """Print *args* separated by a space, append to the global buffer."""
     line = " ".join(str(arg) for arg in args)
     _console_buffer.append(line)
-    # Also print immediately so interactive sessions see output.
-    print(line)
-
 
 # ---------------------------------------------------------------------------
 # Math object
